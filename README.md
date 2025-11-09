@@ -29,7 +29,7 @@ char	*get_next_line(int fd);
 ## Compilation
 
 ```sh
-gcc -Wall -Wextra -Werror get_next_line.c get_next_line_utils.c main.c -o gnl
+gcc -Wall -Wextra -Werror get_next_line.c get_next_line_utils.c -o gnl
 ```
 
 ## Usage
