@@ -15,11 +15,10 @@ The goal of this project is to write a function that reads from a file descripto
 ## Function Prototype
 
 ```c
-int get_next_line(int fd, char **line);
+char	*get_next_line(int fd);
 ```
 
 - `fd`: File descriptor to read from.
-- `line`: Pointer to a string where the read line will be stored. Memory for *line* must be allocated inside the function and freed by the caller when done.
 
 ## Project Structure
 
