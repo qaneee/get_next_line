@@ -45,7 +45,7 @@ int main(void)
 {
     int fd = open("myfile.txt", O_RDONLY);
     char *line;
-    while (get_next_line(fd, &line) > 0)
+    while ((line = get_next_line(fd)) != NULL)
     {
         printf("%s\n", line);
         free(line);
